@@ -66,6 +66,8 @@
 .container.ex3 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .ex3 .box {
 }
