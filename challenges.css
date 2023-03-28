@@ -265,8 +265,12 @@
 .container.ex16 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 .ex16 .box {
+  width: 200px
 }
 
 /* EXERCICI 17 */
