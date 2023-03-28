@@ -46,6 +46,8 @@
 .container.ex1 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: row;
 }
 .ex1 .box {
 }
