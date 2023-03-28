@@ -182,8 +182,34 @@
 .container.ex11 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  align-content: flex-start;  
 }
 .ex11 .box {
+}
+
+.ex11 .box1 {
+  order: 6;
+}
+
+.ex11 .box2 {
+  order: 5;
+}
+
+.ex11 .box3 {
+  order: 4;
+}
+
+.ex11 .box4 {
+  order: 3;
+}
+
+.ex11 .box5 {
+  order: 2;
+}
+
+.ex11 .box6 {
+  order: 1;
 }
 
 /* EXERCICI 12 */
