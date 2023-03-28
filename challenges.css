@@ -294,8 +294,11 @@
 .container.ex18 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  align-items: center
 }
-.ex18 .box {
+.ex18 .box3 {
+  height: 150px;
 }
 
 /* EXERCICI 19 */
