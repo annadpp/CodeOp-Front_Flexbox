@@ -87,8 +87,11 @@
 .container.ex5 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-wrap: wrap-reverse;
 }
 .ex5 .box {
+  width: 200px;
 }
 
 /* EXERCICI 6 */
