@@ -270,15 +270,24 @@
   align-content: space-between;
 }
 .ex16 .box {
-  width: 200px
+  width: 200px;
 }
 
 /* EXERCICI 17 */
 .container.ex17 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
 }
 .ex17 .box {
+  width: 200px;
+  height: 150px
 }
 
 /* EXERCICI 18 */
