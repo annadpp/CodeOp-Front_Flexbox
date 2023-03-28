@@ -216,6 +216,9 @@
 .container.ex12 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .ex12 .box {
 }
