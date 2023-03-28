@@ -107,13 +107,16 @@
   width: 200px;
 }
 
-
 /* EXERCICI 7 */
 .container.ex7 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
 }
 .ex7 .box {
+  height: 150px;
 }
 
 /* EXERCICI 8 */
