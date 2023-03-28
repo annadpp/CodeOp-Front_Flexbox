@@ -317,8 +317,18 @@
 .container.ex20 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
 }
 .ex20 .box {
+  width: 200px;
+  align-self: center;
+}
+
+.ex20 .box3 {
+  height: 150px;
 }
 
 /* EXERCICI 21 */
