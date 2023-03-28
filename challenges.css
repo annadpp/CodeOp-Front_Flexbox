@@ -239,8 +239,14 @@
 .container.ex14 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  
 }
 .ex14 .box {
+  height: 150px;
 }
 
 /* EXERCICI 15 */
