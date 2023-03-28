@@ -98,9 +98,15 @@
 .container.ex6 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+
 }
 .ex6 .box {
+  width: 200px;
 }
+
 
 /* EXERCICI 7 */
 .container.ex7 {
