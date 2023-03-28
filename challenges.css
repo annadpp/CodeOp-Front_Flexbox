@@ -136,8 +136,36 @@
 .container.ex9 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .ex9 .box {
+  width: 200px;
+}
+
+.ex9 .box1 {
+  order: 4;
+}
+
+.ex9 .box2 {
+  order: 3;
+}
+
+.ex9 .box3 {
+  order: 2;
+}
+
+.ex9 .box4 {
+  order: 1;
+}
+
+.ex9 .box5 {
+  order: 5;
+}
+
+.ex9 .box6 {
+  order: 6;
 }
 
 /* EXERCICI 10 */
