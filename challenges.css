@@ -295,7 +295,7 @@
   height: 100%;
   border: 2px solid #1e293b;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 .ex18 .box3 {
   height: 150px;
@@ -305,8 +305,12 @@
 .container.ex19 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
-.ex19 .box {
+.ex19 .box3 {
+  height: 150px;
 }
 
 /* EXERCICI 20 */
