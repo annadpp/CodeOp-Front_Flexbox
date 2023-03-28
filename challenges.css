@@ -76,6 +76,8 @@
 .container.ex4 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-wrap: wrap;
 }
 .ex4 .box {
   width: 200px;
