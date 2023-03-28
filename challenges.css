@@ -172,6 +172,8 @@
 .container.ex10 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  justify-content: flex-end;
 }
 .ex10 .box {
 }
