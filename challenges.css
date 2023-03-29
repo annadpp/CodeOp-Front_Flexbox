@@ -343,14 +343,18 @@
 }
 
 .ex21 .box2 {
+  align-content: flex-end;
 }
 
 /* EXERCICI 22 */
 .container.ex22 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  align-items: center;
 }
 .ex22 .box {
+  flex: 0 1 100%;
 }
 
 /* EXERCICI 23 */
