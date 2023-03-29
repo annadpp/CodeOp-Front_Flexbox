@@ -44,6 +44,17 @@ a:hover {
 }
 
 @media all and (max-width: 1024px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .flex-container li {
+    flex: 1 1 50%;
+  }
+
+  .flex-container .social {
+    flex: 1 1 25%;
+  }
 }
 
 @media all and (max-width: 640px) {
