@@ -58,4 +58,7 @@ a:hover {
 }
 
 @media all and (max-width: 640px) {
+  .flex-container li {
+    flex-basis: 100%;
+  }
 }
