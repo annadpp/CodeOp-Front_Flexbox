@@ -361,11 +361,15 @@
 .container.ex23 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  align-items: flex-start;
 }
 .ex23 .box {
+  flex-grow: 1;
 }
 
 .ex23 .box3 {
+  flex-grow: 5;
 }
 
 /* EXERCICI 24 */
