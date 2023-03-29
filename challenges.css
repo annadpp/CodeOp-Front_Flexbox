@@ -376,8 +376,14 @@
 .container.ex24 {
   height: 100%;
   border: 2px solid #1e293b;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  column-gap: 110px;
 }
 .ex24 .box {
+  width: 200px;
+  height: 182px
 }
 
 .ex24 .box3 {
