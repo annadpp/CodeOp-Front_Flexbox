@@ -399,9 +399,29 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: center;
 }
 .ex25 .box {
   height: 150px;
   width: 200px;
   align-self: center;
+  width: 200px;
+  height: 150px;
+  flex-basis: 50%;
+}
+
+.ex25 .box3 {
+  flex-basis: 42%;
+}
+
+.ex25 .box4 {
+  flex-basis: 16%;
+}
+
+.ex25 .box5 {
+  flex-basis: 42%;
+}
+
+.ex25 .box6 {
+  flex-basis: 100%;
 }
