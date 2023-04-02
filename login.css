@@ -1,8 +1,11 @@
 /* ESTILS BÀSICS */
+* {
+  margin: 0 auto;
+}
 
 h1 {
-  font-weight: 800;
-  font-size: 1.875rem;
+  font-weight: 900;
+  font-size: 30px;
   line-height: 2.25rem;
   text-align: center;
 }
@@ -12,13 +15,17 @@ a {
   color: #0891b2;
 }
 
+label {
+  font-weight: 400;
+}
+
 /* EL TEU CODI AQUÍ */
 
 /* Flex Container */
 .container {
   width: 100%;
   height: 100vh;
-  display: flex;
+  font-size: 16px;
 }
 
 .login-container {
@@ -27,10 +34,9 @@ a {
 
 .login-box {
   background-color: white;
-  padding: 2.5rem;
+  padding: 3.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  flex-direction: column;
 }
 
 .form-group, .extra {
@@ -38,12 +44,59 @@ a {
   align-items: baseline;
 }
 
+.form-check {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 5%;
+}
+
+.form-check label {
+  padding-left: 5px;
+}
+
+.form-check label:nth-child(2){
+  color: grey;
+}
+
 .social p {
   text-align: center;
+  padding-top: 6%;
+  font-size: 14px;
+  color: grey;
 }
 
 .extra, .buttons {
   display: flex;
   justify-content: space-between;
+  padding-top: 4%;
 }
 
+.btn-info {
+  background-color: #0891b2;
+}
+
+.buttons button {
+  width: 30%;
+}
+
+.btn-outline-info {
+  background-color:transparent;
+  border-color:#0891b2;
+}
+
+.btn-outline-info {
+  background-color:transparent;
+  border-color:#0891b2;
+}
+
+.btn-outline-info:hover {
+  background-color:#31b0d5
+}
+
+.btn-outline-info:hover .fa {
+  color:#fff;
+}
+
+.fa {
+  font-size: 16px;
+}
