@@ -342,12 +342,15 @@
   align-items: flex-start;
   align-content: flex-end;
 }
+
 .ex21 .box {
   height: 150px;
 }
+
 .ex21 .box3 {
   width: 200px;
 }
+
 .ex21 .box2 {
 }
 
