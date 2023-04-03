@@ -334,17 +334,23 @@
 /* EXERCICI 21 */
 .container.ex21 {
   height: 100%;
-  border: 2px solid #1e293b;
-}
-.ex21 .box {
-}
-
-.ex21 .box3 {
-}
-
-.ex21 .box2 {
+  border: 2px solid #1E293B;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: flex-start;
   align-content: flex-end;
 }
+.ex21 .box {
+  height: 150px;
+}
+.ex21 .box3 {
+  width: 200px;
+}
+.ex21 .box2 {
+}
+
 
 /* EXERCICI 22 */
 .container.ex22 {
@@ -425,3 +431,5 @@
 .ex25 .box6 {
   flex-basis: 100%;
 }
+
+
